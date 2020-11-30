@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
+class App
 
-open class ParayoApplication
-fun main(){
-    runApplication<ParayoApplication>()
+fun main(args: Array<String>) {
+    runApplication<App>(*args)
 }
