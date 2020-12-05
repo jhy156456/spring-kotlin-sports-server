@@ -5,7 +5,6 @@ import kotlin.properties.Delegates
 
 @Component
 class UserContextHolder {
-
     private val userHolder = ThreadLocal
         .withInitial {
             UserHolder()
